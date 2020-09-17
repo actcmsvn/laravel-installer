@@ -1,0 +1,23 @@
+{
+  "name": "actcmsvn/laravel-installer",
+  "description": "Laravel web installer",
+  "license": "MIT",
+  "type": "library",
+
+  "authors": [
+    {
+      "name": "Duc Trung",
+      "email": "actcms.work@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Actcmsvn\\LaravelInstaller\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
