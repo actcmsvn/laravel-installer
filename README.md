@@ -17,7 +17,7 @@ You need to have `.env` to the root
 ## Installation
 Require this package with composer:
 ```
-composer require froiden/laravel-installer
+composer require actcmsvn/laravel-installer
 ```
 
 
@@ -25,7 +25,7 @@ After updating composer, add the ServiceProvider to the providers array in `conf
 
 ```
 'providers' => [
-    Froiden\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
+    Actcmsvn\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
 ];
 ```
 
@@ -33,7 +33,7 @@ After updating composer, add the ServiceProvider to the providers array in `conf
 
 Before using this package you need to run :
 ```bash
-php artisan vendor:publish --provider="Froiden\LaravelInstaller\Providers\LaravelInstallerServiceProvider"
+php artisan vendor:publish --provider="Actcmsvn\LaravelInstaller\Providers\LaravelInstallerServiceProvider"
 ```
 
 You will notice additional files and folders appear in your project :

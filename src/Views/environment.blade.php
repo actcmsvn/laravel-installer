@@ -66,7 +66,7 @@
 @stop
 @section('scripts')
     <script src="{{ asset('installer/js/jQuery-2.2.0.min.js') }}"></script>
-    <script src="{{ asset('installer/froiden-helper/helper.js')}}"></script>
+    <script src="{{ asset('installer/actcmsvn-helper/helper.js')}}"></script>
     <script>
         $.ajaxSetup({
             headers: {
